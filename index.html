@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're Wonderful Project; — Wonder Points</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Redesigned point tracking system for You're Wonderful Project; (YWP). View points, redeem merchandise, and manage volunteer stats.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/src/styles/variables.css">
+  <link rel="stylesheet" href="/src/styles/global.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/src/styles/pages.css">
+</head>
+<body>
+  <!-- SVG Noise Filter Overlay -->
+  <svg class="noise-svg" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <filter id="noise-filter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+      <feColorMatrix type="saturate" values="0" />
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply" />
+    </filter>
+  </svg>
+  
+  <div class="noise-bg"></div>
+
+  <!-- App Mount Point -->
+  <div id="app"></div>
+
+  <!-- Entry Script -->
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
