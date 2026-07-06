@@ -11,8 +11,6 @@ export function renderNavbar(currentUser, activeRoute) {
     // Guest Links
     navLinksHtml = `
       <li><a href="#" class="nav-link ${activeRoute === '' ? 'active' : ''}">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#programs" class="nav-link">Programs</a></li>
       <li><a href="#login" class="btn-capsule btn-primary btn-sm">Sign In</a></li>
     `;
   } else if (currentUser.role === 'intern') {

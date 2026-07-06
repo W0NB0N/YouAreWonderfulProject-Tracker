@@ -41,10 +41,10 @@ export async function handleRouting() {
   renderNavbar(currentUser, activeRoute);
 
   // 5. Render Footer (standard look for landing, minimal for dashboard)
-  renderFooter(footerContainer, activeRoute === '' || activeRoute === 'about' || activeRoute === 'programs');
+  renderFooter(footerContainer, activeRoute === '');
 
   // 6. Router logic & Role protection
-  if (hash === '' || hash === 'about' || hash === 'programs') {
+  if (hash === '') {
     // PUBLIC LANDING PAGE
     mainContent.innerHTML = renderLandingPage();
   } 
@@ -166,8 +166,6 @@ function renderFooter(footerContainer, isFullFooter) {
             <h4>Quick Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#about">About Pillars</a></li>
-              <li><a href="#programs">Active Initiatives</a></li>
               <li><a href="#login">Volunteer Login</a></li>
             </ul>
           </div>

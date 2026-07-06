@@ -3,58 +3,20 @@ export function renderLandingPage() {
     <div class="page-fade-in">
       <!-- HERO SECTION -->
       <section class="landing-hero container" style="padding: 80px 0 60px;">
-        <div class="hero-tagline">You're Wonderful Project<span class="logo-semicolon">;</span></div>
+        <div class="hero-tagline">Volunteer & Intern Portal<span class="logo-semicolon">;</span></div>
         <h1 style="font-size: 52px; max-width: 860px; margin: 0 auto 20px; line-height: 1.15;">
-          Mental Health Support,<br><span style="font-style: italic; color: var(--color-accent-terracotta);">Accessible & Stigma-Free;</span>
+          You're Wonderful Project<br><span style="font-style: italic; color: var(--color-accent-terracotta);">Wonder Points System;</span>
         </h1>
         <p class="hero-subtitle" style="font-size: 18px; max-width: 680px; margin-bottom: 32px;">
-          YWP is a student-founded mental health non-profit registered under the Indian Trusts Act. We build safe spaces, peer-support networks, and youth awareness to break mental health taboos.
+          Track your contributions, earn rewards, check certificate eligibility, and view performance logs in our unified volunteer point system.
         </p>
         <div class="hero-ctas">
-          <a href="#wonder-points" class="btn-capsule btn-primary">Explore Wonder Points System</a>
-          <a href="#login" class="btn-capsule btn-secondary">Volunteer Portal Sign-In</a>
-        </div>
-      </section>
-
-      <!-- SHORT YWP INTRODUCTION & SEMICOLON STORY -->
-      <section class="section-padding container" style="padding-top: 20px; padding-bottom: 60px;">
-        <div class="info-split-grid" style="align-items: center; gap: 48px;">
-          <div>
-            <span class="badge badge-head mb-1">About YWP</span>
-            <h2 style="font-size: 34px; margin-bottom: 16px;">Why the Semicolon?</h2>
-            <p class="mb-2" style="color: var(--color-text-main); font-size: 15px; line-height: 1.7;">
-              Founded by co-founders <strong>Akhilesh Nair</strong> and <strong>Akash Saxena</strong>, You're Wonderful Project creates non-judgmental spaces for conversations on wellness, suicide prevention, and youth support.
-            </p>
-            <p style="color: var(--color-text-muted); font-size: 15px; line-height: 1.7;">
-              The semicolon (<strong>;</strong>) in our logo represents continuation. In sentence structure, an author uses a semicolon when they could have ended a sentence, but chose not to. Your story isn't over yet.
-            </p>
-          </div>
-          <div class="card" style="background-color: var(--color-bg); padding: 28px; border-color: var(--color-card-border);">
-            <h3 class="mb-2" style="font-size: 20px;">Four Organizational Pillars</h3>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 14px;">
-              <div>
-                <strong style="color: var(--color-accent-terracotta); display: block; margin-bottom: 2px;">01. Awareness</strong>
-                <span style="font-size: 12px; color: var(--color-text-muted);">Mental health literacy & school toolkits.</span>
-              </div>
-              <div>
-                <strong style="color: var(--color-accent-mauve); display: block; margin-bottom: 2px;">02. Acceptance</strong>
-                <span style="font-size: 12px; color: var(--color-text-muted);">Destigmatizing clinical care & open dialog.</span>
-              </div>
-              <div>
-                <strong style="color: var(--color-accent-blue); display: block; margin-bottom: 2px;">03. Prevention</strong>
-                <span style="font-size: 12px; color: var(--color-text-muted);">Early youth emotional first-aid intervention.</span>
-              </div>
-              <div>
-                <strong style="color: var(--color-accent-green); display: block; margin-bottom: 2px;">04. Intervention</strong>
-                <span style="font-size: 12px; color: var(--color-text-muted);">Peer support lines & therapist referrals.</span>
-              </div>
-            </div>
-          </div>
+          <a href="#login" class="btn-capsule btn-primary">Volunteer Portal Sign-In</a>
         </div>
       </section>
 
       <!-- FULL WONDER POINTS SYSTEM SECTION -->
-      <section id="wonder-points" class="section-padding" style="background-color: #FFFDFB; border-top: 1px solid var(--color-card-border); border-bottom: 1px solid var(--color-card-border);">
+      <section id="wonder-points" class="section-padding" style="background-color: #FFFDFB; border-top: 1px solid var(--color-card-border); border-bottom: 1px solid var(--color-card-border); padding: 60px 0;">
         <div class="container">
           <!-- 1. What is the Wonder Points System? -->
           <div style="text-align: center; margin-bottom: 48px;">
